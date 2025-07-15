@@ -5,19 +5,19 @@ Comparative experiments on CIFAR-10 using LibAUC loss functions to optimize AURO
 
 This project compares different loss functions for learning on an imbalanced version of CIFAR-10 using [LibAUC](https://github.com/Optimization-AI/LibAUC). We focus on optimizing AUROC, AUPRC, and a combined objective.
 
-## 📌 Experiments
+## Experiments
 
 - ✅ **Experiment 1:** Optimize AUROC with `AUCMLoss`
 - ✅ **Experiment 2:** Optimize AUPRC with `APLoss`
 - ✅ **Experiment 3:** Combine AUCMLoss + APLoss using different `r` values (`r ∈ {0.2, 0.5, 0.8}`)
 
-## 🧪 Dataset
+## Dataset
 
 - **CIFAR-10**
 - Artificially imbalanced to simulate real-world scenarios
 - DualSampler used to ensure each batch has at least one positive sample
 
-## 📈 Results Summary
+## Results Summary
 
 | r value | Best AUPRC |
 |--------|-------------|
